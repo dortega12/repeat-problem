@@ -1,0 +1,5 @@
+def repeat(word, rep):
+    if rep <= 0:
+        return ""
+    else:
+        return word * rep
